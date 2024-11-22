@@ -1,0 +1,62 @@
+{
+  "name": "deeplink-frontend",
+  "version": "0.1.0",
+  "description": "DeepLink Frontend - An innovative gamified social network leveraging blockchain technology.",
+  "license": "MIT",
+  "author": "SBG Corporate https://sbgworld.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/deep-link-front.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "devt": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/lab": "^5.0.0-alpha.129",
+    "@mui/material": "^5.4.1",
+    "@mui/x-data-grid": "^5.5.1",
+    "@reduxjs/toolkit": "1.9.5",
+    "@types/yup": "0.32.0",
+    "axios": "^1.4.0",
+    "dompurify": "^3.0.3",
+    "emoji-picker-react": "^4.4.9",
+    "formik": "^2.2.9",
+    "framer-motion": "^10.12.16",
+    "moment": "^2.29.4",
+    "next": "13.4.1",
+    "openai": "^3.2.1",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "14.2.3",
+    "react-easy-crop": "^5.0.7",
+    "react-hook-form": "^7.51.5",
+    "react-hot-toast": "2.4.1",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.0.4",
+    "react-scripts": "5.0.1",
+    "react-slideshow-image": "^3.7.0",
+    "redux-persist": "6.0.0",
+    "uuid": "^10.0.0",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.2",
+    "@types/node": "^20.1.3",
+    "@types/react": "^18.2.6",
+    "@types/react-dropzone": "5.1.0",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.9.0",
+    "eslint-config-next": "13.4.1",
+    "postcss": "^8.4.24",
+    "typescript": "5.0.4"
+  }
+}
